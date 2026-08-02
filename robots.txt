@@ -1,0 +1,7 @@
+# robots.txt for Eureka Learning Hub
+# Allow all well-behaved crawlers full access.
+User-agent: *
+Allow: /
+
+# Point crawlers at the sitemap so we get indexed faster.
+Sitemap: https://YOUR-USERNAME.github.io/eureka-learning-hub/sitemap.xml

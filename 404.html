@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+  404 — fallback page served by GitHub Pages when a URL is not found.
+  Styled to match the main site so users can navigate back.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page not found · Eureka Learning Hub</title>
+  <meta name="description" content="The page you were looking for could not be found." />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Tiny 404-specific block — keeps main.css untouched. */
+    .notfound { text-align: center; padding: 6rem 1rem 4rem; color: var(--cream); }
+    .notfound h1 { font-size: clamp(3rem, 9vw, 6rem); color: var(--gold-soft); margin: 0 0 .5rem; }
+    .notfound p { color: rgba(251,247,240,.85); margin-bottom: 2rem; }
+  </style>
+</head>
+<body class="page-404">
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner notfound">
+      <h1>404</h1>
+      <h2>Page not found</h2>
+      <p>The page you were looking for has either moved or never existed.</p>
+      <a href="./" class="btn btn-ghost">Back to home</a>
+    </div>
+  </section>
+</body>
+</html>
