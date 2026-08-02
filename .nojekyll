@@ -1,0 +1,5 @@
+# .nojekyll
+# This empty file tells GitHub Pages: "do not run this site through Jekyll."
+# We don't need Jekyll — we ship plain HTML/CSS/JS — and turning it off
+# prevents Jekyll from ignoring files/dirs that start with an underscore
+# and from re-processing our content.
