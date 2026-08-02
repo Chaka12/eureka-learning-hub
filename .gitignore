@@ -1,0 +1,30 @@
+# Files / folders ignored by git for this project.
+# Keeps the repo clean and the deployed site predictable.
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (we don't use it today, but ignore if anyone adds tooling later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs (none today, but if you add a static-site generator later)
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Logs
+*.log
